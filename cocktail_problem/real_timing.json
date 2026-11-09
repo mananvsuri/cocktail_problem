@@ -1,0 +1,16 @@
+{
+  "input": "New Recording 46.wav",
+  "duration_s": 301.16133333333335,
+  "device": "cpu",
+  "chunk_seconds": 10.0,
+  "overlap_seconds": 2.0,
+  "elapsed_s": 278.2383414999931,
+  "real_time_factor": 0.9238846780905686,
+  "peak_rss_mb": 1350.46875,
+  "outputs": [
+    "real_separated/speaker1.wav",
+    "real_separated/speaker2.wav"
+  ],
+  "n_windows": 38,
+  "n_swaps_corrected": 0
+}

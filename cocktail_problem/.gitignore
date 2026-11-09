@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated test audio. These are reproducible with run_long_test.sh /
+# run_experiments.py, and ten minutes of 16 kHz audio runs to tens of MB,
+# which is not worth versioning.
+clips/
+test_*/
+runs/
+
+# Downloaded model weights (fetched automatically on first run).
+pretrained_models/*/*.ckpt

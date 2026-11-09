@@ -1,0 +1,17 @@
+{
+  "model": "speechbrain/sepformer-wham",
+  "input": "New Recording 50.wav",
+  "duration_s": 300.2026666666667,
+  "device": "cpu",
+  "chunk_seconds": 10.0,
+  "overlap_seconds": 2.0,
+  "elapsed_s": 252.21807008399628,
+  "real_time_factor": 0.84015932597977,
+  "peak_rss_mb": 1172.203125,
+  "outputs": [
+    "output_wham/speaker1.wav",
+    "output_wham/speaker2.wav"
+  ],
+  "n_windows": 38,
+  "n_swaps_corrected": 0
+}
