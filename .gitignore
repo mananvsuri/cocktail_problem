@@ -14,10 +14,24 @@ env/
 .AppleDouble
 .LSOverride
 
-# Audio files (optional - remove if you want to commit them)
-# *.wav
+# Generated audio files
+*.wav
 
-# Model checkpoints (usually large)
+# Timing and results
+*_timing.json
+results.csv
+
+# Output directories
+output/
+output_*/
+separated/
+rec*_separated/
+clips/
+refs/
+test_*/
+runs/
+
+# Model checkpoints
 *.ckpt
 
 # IDE
@@ -26,3 +40,8 @@ env/
 
 # Logs
 *.log
+
+# Documentation (keep only code)
+*.tex
+*.pdf
+PPT_*.md
